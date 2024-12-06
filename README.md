@@ -22,7 +22,7 @@
 
 ## Framework Overview  
 
-![Framework](https://github.com/Sofiene-Uni/Public/raw/main/framework.png)  
+![Framework](https://github.com/Sofiene-Uni/Intralogistics/blob/main/framework.png)  
 
 ## Installation  
 
@@ -61,8 +61,5 @@ If you use this framework in your research, please cite the associated papers:
 
 > **Introducing PetriRL: An innovative framework for JSSP resolution integrating Petri nets and event-based reinforcement learning**  
 > Available from [Link](https://www.sciencedirect.com/science/article/pii/S0278612524000943). 
-
-> **Flexible Manufacturing Systems Intralogistics: Dynamic Optimization of AGVs and Tool Sharing Using Coloured-Timed Petri Nets and Actor-Critic RL with Actions Masking**  
-> Available from [Link](https://www.researchgate.net/publication/386198263). 
 
  
