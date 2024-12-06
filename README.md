@@ -1,5 +1,5 @@
 
-# PetriRL: Advanced Job Shop Scheduling with Petri Nets and Reinforcement Learning  
+# PetriRL: Advanced Scheduling with Petri Nets and Reinforcement Learning  
 
 **PetriRL** is a Python-based framework designed for modeling, simulating, and optimizing job shop scheduling problems using Colored-Timed Petri Nets (CTPNs) and actor-critic reinforcement learning. By combining formal modeling with dynamic action masking and adaptive learning, PetriRL addresses complex challenges in Flexible Manufacturing Systems (FMS), such as automated guided vehicle (AGV) scheduling and tool-sharing optimization.  
 
