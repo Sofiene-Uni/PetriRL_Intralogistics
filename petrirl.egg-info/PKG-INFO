@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: petrirl
+Version: 0.1.0
+Summary: PetriRL : Flexible manufacturing systems with Petri Nets and Reinforcement learning dynamic version
+Home-page: https://www.fh-swf.de/de/forschung___transfer_4/labore_3/labs/labor_fuer_automatisierungstechnik__soest_1/standardseite_57.php
+Author: Sofiene Lassoued
+Author-email: lassoued.sofiene@fh-swf.de
+Project-URL: Documentation, https://www.researchgate.net/publication/386198263_Flexible_Manufacturing_Systems_Intralogistics_Dynamic_Optimization_of_AGVs_and_Tool_Sharing_Using_Coloured-Timed_Petri_Nets_and_Actor-Critic_RL_with_Actions_Masking
+Project-URL: Repository, https://github.com/Sofiene-Uni/Intralogistics
+Description-Content-Type: text/markdown
+
 
 # PetriRL: Advanced Scheduling with Petri Nets and Reinforcement Learning  
 
