@@ -1,43 +1,57 @@
+# PetriRL: Advanced Scheduling with Petri Nets and Reinforcement Learning
 
-# PetriRL: Advanced Scheduling with Petri Nets and Reinforcement Learning  
+**PetriRL** combines the formalism of Petri Nets with reinforcement learning to tackle dynamic scheduling in Flexible Manufacturing Systems (FMS). It offers a reproducible framework for research and industrial applications, demonstrating improved makespan and computational efficiency using **Colored-Timed Petri Nets (CTPNs)** and **actor-critic reinforcement learning**. 
 
-**PetriRL** is a Python-based framework designed for modeling, simulating, and optimizing job shop scheduling problems using Colored-Timed Petri Nets (CTPNs) and actor-critic reinforcement learning. By combining formal modeling with dynamic action masking and adaptive learning, PetriRL addresses complex challenges in Flexible Manufacturing Systems (FMS), such as automated guided vehicle (AGV) scheduling and tool-sharing optimization.  
+## PetriRL Intralogistics
 
-## Key Features  
+`PetriRL_intralogistics` is one of the environments provided in the PetriRL package. It focuses on **Flexible Manufacturing Systems (FMS)** and is designed to handle complex intralogistics challenges, including **AGV scheduling**, **tool-sharing optimization**, and dynamic job shop scheduling.  
+
+Our approach combines the structural modeling power of Petri nets with the dynamic decision-making of policy-based reinforcement learning. Key aspects include:
+
+- **Dynamic Action Masking:** Token distributions in the Petri net generate dynamic masks that reduce the RL search space, improve sample efficiency, aid credit assignment, and mitigate the combinatorial curse.
+- **Policy-Based Reinforcement Learning:** Enhances knowledge retention and transferability, allowing the agent to generalize to unseen problems and make near real-time decisions.
+- **Explainability:** Graphical semantics and token flows provide insights into scheduling decisions.
+- **Scalability:** Modular Petri net design supports large, complex systems.
+- **Model-Based RL Rollouts:** Used to determine optimal AGV positioning, further improving operational efficiency.
+
+This environment (`petrirl-fms-v0`) provides a realistic testbed for dynamic scheduling and resource management in modern manufacturing systems.
+
+## Why PetriRL?
+
+Flexible Manufacturing Systems require adaptive and efficient resource management. PetriRL enhances traditional job shop scheduling by:
+
+- **Integrating AGVs and Tool-Sharing Systems:** Optimizes multiple components simultaneously.
+- **Dynamic Action Masking:** Reduces the action space for faster decision-making.
+- **Learning-Based Adaptability:** Actor-critic RL adapts to dynamic environments and unexpected events.
+
+## Key Features
 
 - **Colored-Timed Petri Nets (CTPNs):**  
-  PetriRL employs CTPNs to model the intricate dynamics of FMS, providing a formal structure to represent workflows, resource constraints, and timing. CTPNs enable dynamic action masking to reduce the action space, facilitating efficient decision-making.  
+  Model workflows, resource constraints, and timing in FMS. Enable **dynamic action masking**, reducing the action space and improving computational efficiency.
 
 - **Actor-Critic Reinforcement Learning:**  
-  Integrates model-based reinforcement learning (MBRL) with actor-critic algorithms to adapt policies for dynamic manufacturing environments. PetriRL incorporates lookahead strategies for optimal AGV positioning and tool utilization.  
+  Integrates model-based RL with actor-critic methods for adaptive scheduling. Supports lookahead strategies for AGV positioning and tool utilization.
 
 - **Gym-Compatible Environment:**  
-  PetriRL provides an OpenAI Gym-compatible environment, enabling seamless integration with reinforcement learning pipelines and supporting rapid experimentation.  
+  Fully compatible with OpenAI Gym, allowing seamless integration with RL pipelines and rapid experimentation.
 
 - **Benchmarks for Evaluation:**  
-  Includes support for Taillard Benchmarks and introduces a new large-scale benchmark inspired by real-world scenarios, allowing robust evaluation of scheduling algorithms.  
+  Includes Taillard benchmarks and a new large-scale benchmark inspired by real-world intralogistics scenarios.
 
 - **Enhanced Performance:**  
-  Demonstrates a tenfold reduction in computation time compared to traditional methods while matching or outperforming them on makespan metrics, especially on large-scale instances.  
+  Achieves faster computation times while matching or outperforming traditional scheduling methods on makespan metrics.
 
-## Framework Overview  
+## Framework Overview
 
-![Framework](https://github.com/Sofiene-Uni/Intralogistics/blob/main/framework.png)  
+![Framework](https://github.com/Sofiene-Uni/Intralogistics/blob/main/framework.png)
 
-## Installation  
+## Installation
 
-Install PetriRL using pip:  
+Install PetriRL using pip:
 
-```bash  
-pip install petrirl  
-```  
+```bash
+pip install petrirl
 
-## Why PetriRL?  
-
-Flexible Manufacturing Systems (FMS) are critical in modern production due to their ability to adapt to changing demands and optimize resource usage. PetriRL enhances traditional job shop scheduling by:  
-1. **Integrating AGVs and Tool-Sharing Systems:** Supports advanced intralogistics with simultaneous optimization of multiple components.  
-2. **Dynamic Action Masking:** CTPNs significantly reduce the action space, improving computational efficiency.  
-3. **Learning-Based Adaptability:** Actor-critic methods ensure robust policies that adapt to dynamic environments and unforeseen challenges.  
 
 ## Research Context  
 
@@ -59,7 +73,8 @@ This project provides:
 
 If you use this framework in your research, please cite the associated papers:  
 
+> **Flexible Manufacturing Systems intralogistics: Dynamic optimization of AGVs and tool sharing using Colored-Timed Petri Nets and actor–critic RL with actions masking**  
+> Available from [Link](https://www.sciencedirect.com/science/article/pii/S0278612525001694). 
+
 > **Introducing PetriRL: An innovative framework for JSSP resolution integrating Petri nets and event-based reinforcement learning**  
 > Available from [Link](https://www.sciencedirect.com/science/article/pii/S0278612524000943). 
-
- 
