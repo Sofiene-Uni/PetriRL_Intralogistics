@@ -1,25 +1,12 @@
-# PetriRL: Advanced Scheduling with Petri Nets and Reinforcement Learning  
 
-**PetriRL** is a framework that integrates the structural modeling power of **Petri Nets** with the adaptability of **reinforcement learning (RL)** to solve dynamic scheduling problems in **Flexible Manufacturing Systems (FMS)**.  
-
-By leveraging **Colored-Timed Petri Nets (CTPNs)** and **actor-critic RL**, PetriRL achieves improved **makespan performance**, **adaptability to dynamic environments**, and **computational efficiency** compared to traditional scheduling methods.  
-
----
-
-## Why PetriRL?  
-
-Flexible Manufacturing Systems require adaptive resource management to handle uncertainty, shared resources, and complex workflows. PetriRL provides:  
-
-- **Dynamic Action Masking** – Reduces the RL action space using Petri Net token distributions, improving sample efficiency and stability.  
-- **Policy-Based RL** – Supports knowledge transfer, adaptability to unseen problems, and near real-time scheduling decisions.  
-- **Explainability** – Petri Net semantics and token flows provide transparent insights into decision-making.  
-- **Scalability** – Modular Petri Net design supports large-scale manufacturing systems.  
-
----
 
 ## PetriRL Intralogistics (`petrirl-fms-v0`)  
+## Framework Overview  
 
-The **PetriRL Intralogistics** environment focuses on **Flexible Manufacturing Systems** with intralogistics challenges such as:  
+![Framework](https://github.com/Sofiene-Uni/Intralogistics/blob/main/framework.png)  
+
+---
+The **PetriRL Intralogistics** environment is part of the PetriRL package, it focuses on **Flexible Manufacturing Systems** with intralogistics challenges such as:  
 
 - **AGV Scheduling** – Coordinating multiple automated guided vehicles.  
 - **Tool-Sharing Optimization** – Managing shared tools across jobs and machines.  
@@ -44,13 +31,6 @@ The **PetriRL Intralogistics** environment focuses on **Flexible Manufacturing S
   Matches or outperforms classical optimization on makespan while achieving faster computation times.  
 
 ---
-
-## Framework Overview  
-
-![Framework](https://github.com/Sofiene-Uni/Intralogistics/blob/main/framework.png)  
-
----
-
 ## Installation  
 
 ```bash
