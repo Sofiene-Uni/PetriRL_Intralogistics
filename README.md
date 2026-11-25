@@ -67,3 +67,11 @@ If you use this work, please cite:
   doi     = {10.1016/j.jmsy.2024.04.028}
 }
 ```
+
+If you use or modify the code, please also link this repository. GitHub's "Cite this repository" button
+(from `CITATION.cff`) gives a ready-made citation.
+
+## License
+
+Released under the [MIT License](LICENSE). You may use, modify and redistribute the code, including in your own
+publications, as long as the copyright notice is kept. Contributions and bug fixes are welcome via pull requests.

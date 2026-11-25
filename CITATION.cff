@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "PetriRL Intralogistics"
+authors:
+  - family-names: Lassoued
+    given-names: Sofiene
+license: MIT
+repository-code: "https://github.com/Sofiene-Uni/PetriRL_Intralogistics"
+preferred-citation:
+  type: article
+  title: "Flexible Manufacturing Systems intralogistics: Dynamic optimization of AGVs and tool sharing using Colored-Timed Petri Nets and actor-critic RL with actions masking"
+  authors:
+    - family-names: Lassoued
+      given-names: Sofiene
+    - family-names: Baheti
+      given-names: Laxmikant Shrikant
+    - family-names: Weiß-Borkowski
+      given-names: Nathalie
+    - family-names: Lier
+      given-names: Stefan
+    - family-names: Schwung
+      given-names: Andreas
+  journal: "Journal of Manufacturing Systems"
+  volume: 82
+  start: 405
+  end: 419
+  year: 2025
+  doi: "10.1016/j.jmsy.2025.06.017"
